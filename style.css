@@ -23,9 +23,11 @@ body, html {
 }
 
 .main-container {
+    justify-content: center;
     margin-top: 40vh;
     text-align: center;
     width: 60vw;
+    max-width: 500px;
     height: auto;
 }
 
@@ -43,6 +45,11 @@ body, html {
     border: 2px solid rgb(52, 37, 17);
     border-radius: 15px;
     cursor: pointer;
+    transition: background-color 200ms ease;
+}
+
+#play-btn:hover {
+    background-color: rgb(141, 123, 99);
 }
 
 .answer-container {
